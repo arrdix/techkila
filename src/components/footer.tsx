@@ -3,7 +3,7 @@ import { FaInstagram, FaXTwitter, FaLinkedin } from 'react-icons/fa6'
 export function Footer() {
     return (
         <>
-            <div className="flex flex-row w-full gap-20 py-16 px-32 border-t border-foreground border-opacity-20">
+            <div className="flex flex-col sm:flex-row justify-between w-full gap-8 lg:gap-20 py-16 px-8 lg:px-32 border-t border-foreground border-opacity-20">
                 <div className="flex flex-col gap-4">
                     <p className="text-4xl text-accent font-black">Techkila</p>
                     <p className="text-sm w-full">
@@ -15,23 +15,25 @@ export function Footer() {
                         <FaXTwitter size={24} />
                     </div>
                 </div>
-                <div className="flex flex-col ml-auto">
-                    <p className="text-xl font-black mb-2">Navigation</p>
-                    <p className="font-base">Home</p>
-                    <p className="font-base">Solution</p>
-                    <p className="font-base">Services</p>
-                    <p className="font-base">People</p>
-                </div>
-                <div className="flex flex-col">
-                    <p className="text-xl font-black mb-2">Contact</p>
-                    <p className="font-base">hi@techkila.com</p>
-                    <p className="font-base">+62 812 1234 1234</p>
-                    <p className="font-base">+62 812 1234 1234</p>
-                </div>
-                <div className="flex flex-col">
-                    <p className="text-xl font-black mb-2">About</p>
-                    <p className="font-base">FAQ</p>
-                    <p className="font-base">Contact</p>
+                <div className="flex flex-row gap-8 lg:gap-20 flex-wrap">
+                    <div className="flex flex-col lg:ml-auto">
+                        <p className="text-xl font-black mb-2">Navigation</p>
+                        <p className="font-base">Home</p>
+                        <p className="font-base">Solution</p>
+                        <p className="font-base">Services</p>
+                        <p className="font-base">People</p>
+                    </div>
+                    <div className="flex flex-col">
+                        <p className="text-xl font-black mb-2">Contact</p>
+                        <p className="font-base">hi@techkila.com</p>
+                        <p className="font-base">+62 812 1234 1234</p>
+                        <p className="font-base">+62 812 1234 1234</p>
+                    </div>
+                    <div className="flex flex-col">
+                        <p className="text-xl font-black mb-2">About</p>
+                        <p className="font-base">FAQ</p>
+                        <p className="font-base">Contact</p>
+                    </div>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center p-4 border-t border-foreground border-opacity-10">

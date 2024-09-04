@@ -9,6 +9,9 @@ export default {
                 accent: '#00bfbc',
                 dev: '#f54269',
             },
+            lineHeight: {
+                less: '0.9',
+            },
         },
     },
     plugins: [],

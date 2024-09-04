@@ -1,10 +1,10 @@
 export function Work() {
     return (
-        <div className="flex flex-col items-center gap-20 p-32 min-h-screen">
-            <h2 className="text-7xl font-black text-center">
-                LET'S SOLVE YOUR <br /> PROBLEM
+        <div className="flex flex-col items-center gap-10 lg:gap-20 xl:gap-30 p-8 xl:p-32 pb-40 min-h-screen">
+            <h2 className="text-5xl leading-less sm:text-6xl md:text-7xl font-black text-center">
+                LET'S <br /> <span className="text-accent">SOLVE</span> YOUR <br /> PROBLEM
             </h2>
-            <div className="flex flex-row items-center gap-16 w-5/6">
+            <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16 w-full sm:w-4/5 md:w-full lg:w-5/6">
                 <div className="flex flex-col gap-4 w-full bg-background shadow-lg rounded-xl px-8 py-16">
                     <p className="text-4xl text-accent font-black">Techkila</p>
                     <div className="flex flex-col gap-1">
@@ -33,7 +33,7 @@ export function Work() {
                         Send
                     </button>
                 </div>
-                <h3 className="w-full text-6xl font-black">
+                <h3 className="w-full text-5xl leading-less md:text-6xl font-black text-center md:text-start">
                     Make <br /> your first <br /> move and let <br /> us do the <br />{' '}
                     <span className="text-accent">miracle.</span>
                 </h3>
